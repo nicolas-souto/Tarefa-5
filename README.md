@@ -79,7 +79,7 @@ Baixe o repositório e abra o PowerShell na pasta que contém os arquivos:
 ```text
 Tarefa-5/
 ├── tarefa_5_hogeslag_1_3.py
-├── requirements_hogeslag_1_3.txt
+├── requirements.txt
 └── README.md
 ```
 
@@ -102,7 +102,7 @@ Os próximos comandos utilizam diretamente o Python do ambiente virtual, sem pre
 ### 4. Instale as dependências
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements_hogeslag_1_3.txt
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 O arquivo de requisitos contém:
@@ -114,8 +114,6 @@ pandas>=2.0
 matplotlib>=3.8
 reportlab>=4.0
 ```
-
-> Se o arquivo for renomeado para `requirements.txt`, ajuste o comando para utilizar esse nome.
 
 ### 5. Inicie a aplicação
 
